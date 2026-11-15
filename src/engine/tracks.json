@@ -1,0 +1,196 @@
+[
+  {
+    "id": "night-lights",
+    "svs": 5313,
+    "title": "Night Lights, 2012–2023",
+    "short": "Night lights",
+    "kind": "video",
+    "source": "https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC_2160p30_h265.mp4",
+    "ss": 6,
+    "t": 24,
+    "blurb": "City lights seen from orbit, and how they changed over a decade. Dark land and sea stay silent; every lit pixel rings.",
+    "hear": "Bells mark bright pixels. Denser light means faster notes. North is high, south is low.",
+    "preset": {
+      "root": 50,
+      "scale": "minPent",
+      "energy": "peak",
+      "lead": "bell",
+      "threshold": 0.3,
+      "bpm": 92,
+      "voices": 3,
+      "pulse": "motion"
+    }
+  },
+  {
+    "id": "sea-currents",
+    "svs": 3912,
+    "title": "Sea Surface Currents and Temperature",
+    "short": "Ocean currents",
+    "kind": "video",
+    "source": "https://svs.gsfc.nasa.gov/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024_comp_p30.mp4",
+    "ss": 4,
+    "t": 24,
+    "blurb": "Ocean currents swirling across the globe, coloured by surface temperature.",
+    "hear": "Warm colours brighten the harmony, cool colours darken it. Flowing glass notes follow the strongest colour in each column.",
+    "preset": {
+      "root": 48,
+      "scale": "lydian",
+      "energy": "sat",
+      "lead": "glass",
+      "threshold": 0.35,
+      "bpm": 84,
+      "voices": 2,
+      "pulse": "motion"
+    }
+  },
+  {
+    "id": "aerosols",
+    "svs": 5669,
+    "title": "GEOS Aerosols",
+    "short": "Aerosols",
+    "kind": "still",
+    "source": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1920x1080.png",
+    "blurb": "Smoke, dust and other airborne particles from the GEOS model, each type drawn in its own colour.",
+    "hear": "A still frame, read left to right like sheet music. Colour families take turns: the chord follows whichever colour dominates.",
+    "preset": {
+      "root": 45,
+      "scale": "dorian",
+      "energy": "sat",
+      "lead": "pluck",
+      "threshold": 0.3,
+      "bpm": 100,
+      "voices": 3,
+      "pulse": "none"
+    }
+  },
+  {
+    "id": "carbon-dioxide",
+    "svs": 5196,
+    "title": "DYAMOND Global Carbon Dioxide",
+    "short": "Carbon dioxide",
+    "kind": "video",
+    "source": "https://svs.gsfc.nasa.gov/vis/a000000/a005100/a005196/dyamondPointCloud_12-1-2023b_dyamond_co2_anim_globe_orbit_1080p30_h265.mp4",
+    "ss": 0,
+    "t": 24,
+    "blurb": "Carbon dioxide moving through the atmosphere in a high-resolution global model.",
+    "hear": "A low drone thickens as the plumes brighten. Marimba notes trace where the gas is densest.",
+    "preset": {
+      "root": 43,
+      "scale": "minPent",
+      "energy": "luma",
+      "lead": "marimba",
+      "threshold": 0.35,
+      "bpm": 88,
+      "voices": 2,
+      "pulse": "motion"
+    }
+  },
+  {
+    "id": "lightning",
+    "svs": 5011,
+    "title": "Lightning Seen from the Space Station, 2017–2023",
+    "short": "Lightning",
+    "kind": "video",
+    "source": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_sphere_07312023.mp4",
+    "ss": 8,
+    "t": 24,
+    "blurb": "Lightning flashes recorded by a sensor on the International Space Station.",
+    "hear": "Each jump in brightness is a strike on the drum. The more flashes, the busier the rhythm.",
+    "preset": {
+      "root": 47,
+      "scale": "minPent",
+      "energy": "peak",
+      "lead": "pluck",
+      "threshold": 0.4,
+      "bpm": 108,
+      "voices": 2,
+      "pulse": "flash"
+    }
+  },
+  {
+    "id": "forest-height",
+    "svs": 4950,
+    "title": "GEDI Forest Height",
+    "short": "Forest height",
+    "kind": "video",
+    "source": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004950/GEDI_global_w_colorbar_1080p60.mp4",
+    "ss": 3,
+    "t": 20,
+    "blurb": "Global canopy height measured by the GEDI laser instrument: the colour scale runs from low scrub to tall forest.",
+    "hear": "Wooden marimba notes. Stronger colour means taller canopy and louder notes.",
+    "preset": {
+      "root": 52,
+      "scale": "majPent",
+      "energy": "sat",
+      "lead": "marimba",
+      "threshold": 0.3,
+      "bpm": 96,
+      "voices": 3,
+      "pulse": "none"
+    }
+  },
+  {
+    "id": "atmospheric-river",
+    "svs": 4960,
+    "title": "An Atmospheric River in 3D",
+    "short": "Atmospheric river",
+    "kind": "video",
+    "source": "https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004960/atmos_river_HD.mp4",
+    "ss": 10,
+    "t": 24,
+    "blurb": "A long band of moisture crossing the ocean, shown in three dimensions from an Earth system model.",
+    "hear": "Sustained glass tones swell where moisture is thickest and thin out where the air is dry.",
+    "preset": {
+      "root": 46,
+      "scale": "dorian",
+      "energy": "luma",
+      "lead": "glass",
+      "threshold": 0.35,
+      "bpm": 76,
+      "voices": 2,
+      "pulse": "motion"
+    }
+  },
+  {
+    "id": "boundary-currents",
+    "svs": 5425,
+    "title": "Perpetual Ocean 2: Western Boundary Currents",
+    "short": "Boundary currents",
+    "kind": "video",
+    "source": "https://svs.gsfc.nasa.gov/vis/a000000/a005400/a005425/perpetual_ocean2_CLOSE_096_temperature_1080p30.mp4",
+    "ss": 6,
+    "t": 24,
+    "blurb": "Fast, narrow currents such as the Gulf Stream, coloured by temperature.",
+    "hear": "Plucked notes ride the bright threads of current. Movement in the frame drives the pulse.",
+    "preset": {
+      "root": 50,
+      "scale": "lydian",
+      "energy": "luma",
+      "lead": "pluck",
+      "threshold": 0.35,
+      "bpm": 100,
+      "voices": 2,
+      "pulse": "motion"
+    }
+  },
+  {
+    "id": "air-quality",
+    "svs": 5533,
+    "title": "Air Quality Model Runs",
+    "short": "Air quality",
+    "kind": "still",
+    "source": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005533/AirQuality_Sphere_1920x1080_0000.png",
+    "blurb": "A frame from NASA air-quality model runs showing pollution in the atmosphere.",
+    "hear": "A still frame scanned left to right. Bells sound where pollution is drawn most strongly.",
+    "preset": {
+      "root": 49,
+      "scale": "minPent",
+      "energy": "sat",
+      "lead": "bell",
+      "threshold": 0.3,
+      "bpm": 90,
+      "voices": 2,
+      "pulse": "none"
+    }
+  }
+]

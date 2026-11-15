@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-paper: #fbf9f4;
+  --color-ink: #0f1b33;
+  --color-mute: #5b6478;
+  --color-line: #e6e2d8;
+  --color-soft: #f3f1ea;
+  --color-sky: #6ea3f2;
+  --color-sky-soft: #cfe0fb;
+  --color-stage: #0a1020;
+  --font-sans: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Inter Tight', Inter, system-ui, sans-serif;
+  --font-serif: Newsreader, Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+  }
+  :focus-visible {
+    outline: 3px solid #ffb347;
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex min-h-[46px] cursor-pointer items-center justify-center gap-2.5 rounded-[10px] border-[1.5px] border-transparent px-5 text-base font-semibold no-underline;
+  }
+  .btn-dark {
+    @apply bg-ink text-white hover:brightness-125;
+  }
+  .btn-light {
+    @apply bg-white text-ink hover:bg-soft;
+  }
+  .btn-soft {
+    @apply bg-sky-soft text-ink hover:brightness-105;
+  }
+  .btn-outline {
+    @apply border-ink bg-white text-ink hover:bg-soft;
+  }
+  .hero-bg {
+    background: linear-gradient(
+      160deg,
+      #2f4a86 0%,
+      #4a67a8 34%,
+      #8f8fdc 68%,
+      #cf9fe6 88%,
+      #e9b6d2 100%
+    );
+  }
+}

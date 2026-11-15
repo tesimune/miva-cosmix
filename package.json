@@ -1,0 +1,29 @@
+{
+  "name": "earthbeat",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Earthbeat: an Earth Information Jukebox. NASA EIC visual frames turned into sound in real time.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "media": "node scripts/fetch-media.mjs",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" scripts vite.config.ts"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "ffmpeg-static": "^5.3.0",
+    "prettier": "^3.10.1",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
